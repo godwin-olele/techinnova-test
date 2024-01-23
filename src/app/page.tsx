@@ -1,3 +1,5 @@
+"use client"
+
 import Assets from '@/constants/assets.constant'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -121,10 +123,10 @@ export default function Home() {
         </div>
         <div className="flex md:flex-row flex-col justify-between items-center space-x-20 absolute bottom-[60px] right-0 md:left-[60px] left-0">
           <div className="w-full h-auto z-20">
-            <h1 className="text-white text-[32px] font-[700] leading-tight poppins w-[30vw] mb-10">‘‘WE HELP ARTISTS FIND THEIR FANS’’</h1>
-            <p className="text-[#6F767E] poppins text-[19px] font-[500] md:w-[35vw] w-full">Figma files can also be downloaded from our store. These files include the latest Figma features and are synced </p>
+            <h1 className="text-white md:text-[32px] text-[6vw] font-[700] leading-tight poppins md:w-[30vw] w-full mb-10">‘‘WE HELP ARTISTS FIND THEIR FANS’’</h1>
+            <p className="text-[#6F767E] poppins md:text-[19px] text-[4vw] font-[500] md:w-[35vw] w-full">Figma files can also be downloaded from our store. These files include the latest Figma features and are synced </p>
           </div>
-          <div className="w-[32vw] h-auto space-x-5 flex justify-end">
+          <div className="md:w-[32vw] w-full h-auto space-x-5 flex md:justify-end">
             <Marquee>
               <div className="w-[160px] h-[160px] bg-cover overflow-hidden mr-5">
                 <Image

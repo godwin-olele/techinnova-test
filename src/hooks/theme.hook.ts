@@ -1,3 +1,5 @@
+"use client"
+
 import { useMediaQuery } from '@mui/material';
 import { useAppSelector } from '../store';
 // import { ThemeState } from '../store/theme.slice';
