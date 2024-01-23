@@ -12,7 +12,7 @@ import useAppTheme from '@/hooks/theme.hook';
 export default function MobileNavbar({ nav, setNav }: any) {
     const router = useRouter();
 
-    const isMobile = useAppTheme();
+    const {isMobile} = useAppTheme();
 
 
     return (
