@@ -183,7 +183,7 @@ export default function Home() {
 
         <div className="mt-20 h-auto">
           <div className="w-full h-auto space-x-5 flex justify-between">
-            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full">
+            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full transition-transform transform scale-100 hover:scale-110 ease-in-out">
               <Image
                 src={Assets.artist1}
                 alt=""
@@ -192,7 +192,7 @@ export default function Home() {
                 objectFit="cover"
               />
             </div>
-            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full">
+            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full transition-transform transform scale-100 hover:scale-110 ease-in-out">
               <Image
                 src={Assets.artist2}
                 alt=""
@@ -201,7 +201,7 @@ export default function Home() {
                 objectFit="cover"
               />
             </div>
-            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full">
+            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full transition-transform transform scale-100 hover:scale-110 ease-in-out">
               <Image
                 src={Assets.artist3}
                 alt=""
@@ -213,7 +213,7 @@ export default function Home() {
           </div>
 
           <div className="w-full h-auto space-x-5 flex justify-around">
-            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full">
+            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full transition-transform transform scale-100 hover:scale-110 ease-in-out">
               <Image
                 src={Assets.artist4}
                 alt=""
@@ -222,7 +222,7 @@ export default function Home() {
                 objectFit="cover"
               />
             </div>
-            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full">
+            <div className="w-[220px] h-[220px] bg-cover overflow-hidden rounded-full transition-transform transform scale-100 hover:scale-110 ease-in-out">
               <Image
                 src={Assets.artist5}
                 alt=""
