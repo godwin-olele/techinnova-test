@@ -59,6 +59,26 @@ export default function Footer() {
       </div>
 
       <div className="my-7 w-full bg-[#33383F] h-px"></div>
+
+      <div className="flex justify-between items-center">
+        <div className="flex space-x-20 items-center">
+          <div className="flex space-x-5 items-center">
+            <p className="text-[#6F767E] text-[9px] poppins font-[400]">2022</p>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="4" height="5" viewBox="0 0 4 5" fill="none">
+                <circle cx="2" cy="2.5" r="2" fill="#6F767E" />
+              </svg>
+            </div>
+            <p className="text-[#6F767E] text-[9px] poppins font-[400]">PLATFORM</p>
+          </div>
+          <p className="text-[#6F767E] text-[9px] poppins font-[400]">2022</p>
+        </div>
+
+        <div className="flex space-x-32 items-center">
+          <p className="text-[#6F767E] text-[9px] poppins font-[400]">TERMS & CONDITIONS</p>
+          <p className="text-[#6F767E] text-[9px] poppins font-[400]">PRIVACY POLICY</p>
+        </div>
+      </div>
     </div>
   );
 }

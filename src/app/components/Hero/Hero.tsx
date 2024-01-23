@@ -5,8 +5,8 @@ import React from 'react'
 
 export default function Hero() {
     return (
-        <div className="w-full bg-[#101314] h-[100vh] pl-[60px] pt-20 relative">
-            <div className="w-full h-[100vh] bg-cover overflow-hidden absolute right-0 left-0 top-0">
+        <div className="w-full bg-[#101314] h-[100vh] pl-[60px] pt-20 relative pb-[150px]">
+            <div className="w-full h-full bg-cover overflow-hidden absolute right-0 left-0 top-0">
                 <Image
                     src={Assets.heroLine}
                     alt=""

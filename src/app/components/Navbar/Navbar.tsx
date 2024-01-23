@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className="py-[24px] px-[60px] z-50 bg-[#101314]">
+    <div className="py-[24px] px-[60px] z-50 bg-[#101314]">
       <div className="w-full flex justify-between items-center">
         <Link href={"/"}>
           <div>
@@ -21,14 +21,14 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden md:block">
-          <ul className="flex space-x-24 text-white font-[400] text-[16px] leading-tight">
-            <li>
+          <div className="flex space-x-24 text-white font-[400] text-[16px] leading-tight">
+            <div>
               <Link href="">Features</Link>
-            </li>
-            <li>
+            </div>
+            <div>
               <Link href="">News</Link>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
 
         <div className="hidden md:block">
@@ -42,6 +42,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-    </nav>
+    </div>
   );
 }
