@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Hero() {
     return (
-        <div className="w-full bg-[#101314] h-[100vh] px-5 md:pl-[60px] md:pt-20 relative md:pb-[150px]">
+        <div className="w-full bg-[#101314] md:h-[100vh] h-auto px-5 md:pl-[60px] md:pt-20 relative md:pb-[150px] py-[100px]">
             <div className="w-full h-full bg-cover overflow-hidden absolute right-0 left-0 top-0 bottom-0">
                 <Image
                     src={Assets.heroLine}
@@ -16,7 +16,7 @@ export default function Hero() {
             </div>
             <div className="md:flex">
                 <div className='w-full h-auto'>
-                    <h1 className='poppins md:text-[54px] text-[6vw] font-[700] text-white leading-tight'>
+                    <h1 className='poppins md:text-[54px] text-[7vw] font-[700] text-white leading-tight'>
                         AN INNOVATIVE PLATFORM THAT <span className='text-primaryColor'>SUPPORTS <br /> ARTISTS.</span>
                     </h1>
                     <p className="text-white md:text-[19px] text-[4vw] font-[400] poppins md:w-[500px] w-full mt-2">Figma files can also be downloaded from our store. These files include the latest Figma features and are </p>
