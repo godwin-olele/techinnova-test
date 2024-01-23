@@ -18,7 +18,7 @@ export default function MobileNavbar({ nav, setNav }: any) {
     return (
         <div className="navbar px-4 py-[8px]">
             <div className="flex space-x-2.5 items-center">
-                <Image src={Assets.xforgeLogo} alt="Logo" width={50} height={50} />
+                <Image src={Assets.logo} alt="Logo" width={50} height={50} />
                 <p className="leading-tight text-[5vw] font-[500] text-white">xForge</p>
             </div>
 
