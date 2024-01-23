@@ -22,9 +22,9 @@ export default function Home() {
         <MobileNavbar />
       )}
       <Hero />
-      <div className="w-full bg-[#EFEFEF] h-auto md:px-[60px] px-5 py-[100px] flex justify-between md:space-x-40 space-x-0 space-y-20 md:flex-row flex-col">
-        <div className="relative">
-          <div className="bg-primaryColor w-full h-[300px] relative rotate-2" />
+      <div className="w-full bg-[#EFEFEF] h-auto md:px-[60px] px-5 py-[100px] flex justify-between md:space-x-40 space-x-0 space-y-16 md:space-y-0 flex-col md:flex-row">
+      <div className="relative">
+          <div className="bg-primaryColor md:w-[537px] md:h-[604px] w-full h-[300px] relative rotate-2" />
           <div className="bg-cover overflow-hidden absolute right-0 left-0 top-0 bottom-0">
             <Image
               src={Assets.career}
@@ -34,7 +34,6 @@ export default function Home() {
             />
           </div>
         </div>
-
         <div className="md:py-14 py-0">
           <h1 className='poppins md:text-[38px] text-[6vw] font-[700] text-secondaryColor leading-tight md:w-[30vw] w-full'>
             YOUR CAREER IS IN YOUR HANDS
